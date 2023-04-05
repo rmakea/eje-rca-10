@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title> Ejercicio 10</title>
+        <link rel="stylesheet" type="text/css" href="css/eje-rca-10.css" media="screen"/>
+       <!--  <link rel="stylesheet" type="text/css" href="CSS/eje-yevm-10.css?v=<?php echo(rand());?>" media="screen"/>-->
+
+    </head>
+    <body>
+        <header>
+            <h1> Ejercicio 10 </h1>
+           <hr>
+            <nav>
+                <ul>
+                    <il><a href="../index.html">Inicio</a></il>
+                    <il><a href="../departamental1/index.html">Departamental 1</a></il>
+                    <il><a href="../departamental2/index.html">Departamental 2</a></il>
+                    <il><a href="../departamental3/index.html">Departamental 3</a></il>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <div id="container">
+                <form name="calculator">
+                    <h2>Calculadora Básica</h2>
+                    <div id="entradas">
+                        <input type="number" name="ent1" id="ent1" class="entrada" placeholder="0">
+                        <input type="number" name="ent2" id="ent2" class="entrada" placeholder="0">
+                    </div>
+                    <div>
+                        <label for="resultado" id="resultado">Resultado: 0.0</label>
+                    </div>
+                    <div id="botones">
+                        <input type="button" value="+" class="boton" onclick="sumaNumeros();">
+                        <input type="button" value="-" class="boton" onclick="restaNumeros();">
+                        <input type="button" value="*" class="boton" onclick="multiplicaNumeros();">
+                        <input type="button" value="/" class="boton" onclick="divideNumeros();">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <br>
+            <hr>
+            <p>Copyright &copy; 2023 Raul Cardoso Acevedo en colaboracion con Yave Vargas</p>
+        </footer>
+        <script src="js/eje-rca-10.js"></script>
+    </body>
+</html>
